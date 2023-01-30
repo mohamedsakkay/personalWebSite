@@ -17,11 +17,12 @@
   }
   .sidebar img {
     border-radius: 50%;
-    border: 9px solid #343A40;
+    border: 9px solid #2f71af;
     width: 168px;
     height: 165px;
     display: block;
     margin: auto;
+    box-shadow: -3px 5px 46px 9px rgba(21,140,186,0.19);
   }
   .sidebar h1 {
     text-align: center;
@@ -43,6 +44,13 @@
     gap: 5%;
     margin-top: 130%;
 }
+
+@media screen and (max-width: 2560px) {
+  .icons {
+    margin-top: 500px;  
+  }
+}
+
 /*Section one : about me*/
 
 .main-one {
@@ -127,6 +135,15 @@
     padding: 13px 42px;
     margin-top: 22px;
     width: 196px;
+  }
+
+  @media screen and (max-width: 2560px) {
+    .section-description-one {
+      top: 12%;
+    }
+    .knowMeMore {
+      justify-content: center;
+    }
   }
 /*section two : resume*/
   .main-two {
@@ -222,4 +239,14 @@
     height: 58px;
     color: #FFFFFF80;
     font-size: 16px;
+}
+
+@media screen and (max-width: 2560px) {
+  .section-description-two {
+    top: 112%;
+    left: 57%;
+  }
+  .myEducation-myExperience {
+    justify-content: center;
+  }
 }
